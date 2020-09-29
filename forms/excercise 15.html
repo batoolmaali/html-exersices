@@ -7,8 +7,6 @@
           margin-left: 300px;
           margin-right: 300px;
           background:coral;
-          align-items: center;
-          display: block;
           
         }
         </style>
@@ -16,7 +14,7 @@
         <body>
     
     <form action="/action_page.php">
-     <fieldset>
+     <fieldset style="align-items: center;">
       <legend>Personalia:</legend>
       <center>
       <label for="fname">First name:</label>
@@ -35,7 +33,7 @@
      </fieldset>
      <fieldset>
       <legend>magazins:</legend>
-      <center> 
+    
         <input type="checkbox" id="c" name="magazins" value="stavanger aftenblad">
         <label for="magazins"> stavanger aftenblad</label><br>
         <input type="checkbox" id="magazins" name="magazins" value="teknisk ukebald">
@@ -44,9 +42,9 @@
         <label for="magazins"> se og hor</label><br>
         <input type="checkbox" id="magazins" name="magazins" value="familien">
         <label for="magazins"> familien</label>
-        </center>
+       
       </fieldset>
-      <fieldset>
+      <fieldset style="align-items: center;">
     
       
         <legend>period:</legend>
@@ -55,6 +53,7 @@
         <input type="number" id="quantity" name="quantity" min="6" max="24" step="6" value="6"><br>
         <center>
       </fieldset>
+      <br>
       <center>
         <input type="submit" value="Subscribe">
         </center>
